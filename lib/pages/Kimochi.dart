@@ -29,6 +29,7 @@ class _KimochiState extends State<Kimochi> {
               style: TextStyle(
                 fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,
+
               ),
             )
           ],
