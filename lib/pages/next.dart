@@ -11,6 +11,7 @@ class _nextpageState extends State<nextpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.cyanAccent,
         title: Row(
