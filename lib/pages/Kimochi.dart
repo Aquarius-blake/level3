@@ -12,7 +12,9 @@ class _KimochiState extends State<Kimochi> {
   Widget build(BuildContext context) {
     return Scaffold(
 
+appBar: AppBar(
 
+),
     );
   }
 }
