@@ -13,7 +13,7 @@ class _KimochiState extends State<Kimochi> {
     return Scaffold(
 
 appBar: AppBar(
-
+title: Row(),
 ),
     );
   }
