@@ -13,7 +13,7 @@ class _nextpageState extends State<nextpage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        elevation: 3.0,
+        elevation: 2.0,
         backgroundColor: Colors.cyanAccent,
         title: Row(
           children: <Widget>[
