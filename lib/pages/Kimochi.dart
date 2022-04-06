@@ -25,7 +25,9 @@ IconButton(
 ),
     Text(
       "Kimochi Page",
+style: TextStyle(
 
+),
     )
   ],
 ),
