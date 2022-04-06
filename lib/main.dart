@@ -32,7 +32,7 @@ IconButton(
     },
     icon:Icon(Icons.wifi)
 ),
-    Text("Level 3")
+    Center(child: Text("Level 3"))
   ],
 ),
 ),
