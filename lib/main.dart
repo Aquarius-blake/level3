@@ -19,6 +19,11 @@ class _HomeState extends State<Home> {
     return Scaffold(
 appBar: AppBar(
   backgroundColor: Colors.cyanAccent,
+title: Row(
+  children: <Widget>[
+
+  ],
+),
 ),
     );
   }
