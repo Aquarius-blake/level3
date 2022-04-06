@@ -25,7 +25,7 @@ class _KimochiState extends State<Kimochi> {
                 icon: Icon(Icons.wifi_lock_sharp)
             ),
             Text(
-              "Kimochi Page",
+              "kimochi Page",
               style: TextStyle(
                 fontStyle: FontStyle.italic,
                 fontWeight: FontWeight.bold,
