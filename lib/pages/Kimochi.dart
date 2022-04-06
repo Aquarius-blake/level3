@@ -14,7 +14,7 @@ class _KimochiState extends State<Kimochi> {
 
 appBar: AppBar(
 title: Row(
-  children: [
+  children: <Widget>[
 
   ],
 ),
