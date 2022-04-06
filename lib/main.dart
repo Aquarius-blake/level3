@@ -33,7 +33,7 @@ IconButton(
     icon:Icon(Icons.wifi)
 ),
     Padding(
-      padding: const EdgeInsets.fromLTRB(50.0,0,0,0),
+      padding: const EdgeInsets.fromLTRB(70.0,0,0,0),
       child: Center(child: Text("Level 3")),
     )
   ],
