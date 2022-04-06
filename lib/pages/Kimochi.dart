@@ -16,7 +16,11 @@ appBar: AppBar(
 title: Row(
   children: <Widget>[
 IconButton(
-    onPressed: (){},
+    onPressed: (){
+      setState(() {
+
+      });
+    },
     icon: Icon(Icons.wifi_lock_sharp)
 )
   ],
