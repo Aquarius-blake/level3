@@ -26,7 +26,7 @@ class _KimochiState extends State<Kimochi> {
             Text(
               "Kimochi Page",
               style: TextStyle(
-
+                fontStyle: FontStyle.italic,
               ),
             )
           ],
