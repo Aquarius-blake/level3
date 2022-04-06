@@ -10,6 +10,8 @@ class nextpage extends StatefulWidget {
 class _nextpageState extends State<nextpage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+
+    );
   }
 }
