@@ -11,7 +11,11 @@ class _nextpageState extends State<nextpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-appBar: AppBar(),
+appBar: AppBar(
+  title: Row(
+
+  ),
+),
     );
   }
 }
