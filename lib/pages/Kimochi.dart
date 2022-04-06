@@ -13,6 +13,7 @@ class _KimochiState extends State<Kimochi> {
     return Scaffold(
 
       appBar: AppBar(
+        elevation: 2.0,
         title: Row(
           children: <Widget>[
             IconButton(
