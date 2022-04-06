@@ -10,6 +10,9 @@ class Kimochi extends StatefulWidget {
 class _KimochiState extends State<Kimochi> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+
+
+    );
   }
 }
