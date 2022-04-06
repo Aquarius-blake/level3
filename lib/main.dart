@@ -47,7 +47,9 @@ class _HomeState extends State<Home> {
       ),
       floatingActionButton: FloatingActionButton(
           onPressed: (){
+setState(() {
 
+});
           },
       ),
     );
