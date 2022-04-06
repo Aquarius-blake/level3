@@ -24,7 +24,8 @@ title: Row(
 IconButton(
     onPressed: (){},
     icon:Icon(Icons.wifi)
-)
+),
+    Text("Level 3")
   ],
 ),
 ),
