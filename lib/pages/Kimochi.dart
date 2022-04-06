@@ -23,7 +23,10 @@ IconButton(
     },
     icon: Icon(Icons.wifi_lock_sharp)
 ),
-    Text("Kimochi Page")
+    Text(
+      "Kimochi Page",
+
+    )
   ],
 ),
 ),
