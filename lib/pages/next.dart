@@ -12,6 +12,7 @@ class _nextpageState extends State<nextpage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.cyanAccent,
         title: Row(
           children: <Widget>[
             IconButton(
