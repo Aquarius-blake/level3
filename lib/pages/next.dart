@@ -13,7 +13,9 @@ class _nextpageState extends State<nextpage> {
     return Scaffold(
 appBar: AppBar(
   title: Row(
+children: <Widget>[
 
+],
   ),
 ),
     );
