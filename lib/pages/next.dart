@@ -27,7 +27,7 @@ class _nextpageState extends State<nextpage> {
             ),
             Padding(
               padding: const EdgeInsets.fromLTRB(70.0,0,0,0),
-              child: Text("Next Page"),
+              child: Text("Next Page "),
             )
           ],
         ),
