@@ -21,7 +21,10 @@ appBar: AppBar(
   backgroundColor: Colors.cyanAccent,
 title: Row(
   children: <Widget>[
-
+IconButton(
+    onPressed: (){},
+    icon:Icon(Icons.wifi)
+)
   ],
 ),
 ),
