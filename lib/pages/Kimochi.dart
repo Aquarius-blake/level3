@@ -12,26 +12,26 @@ class _KimochiState extends State<Kimochi> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-appBar: AppBar(
-title: Row(
-  children: <Widget>[
-IconButton(
-    onPressed: (){
-      setState(() {
+      appBar: AppBar(
+        title: Row(
+          children: <Widget>[
+            IconButton(
+                onPressed: (){
+                  setState(() {
 
-      });
-    },
-    icon: Icon(Icons.wifi_lock_sharp)
-),
-    Text(
-      "Kimochi Page",
-style: TextStyle(
+                  });
+                },
+                icon: Icon(Icons.wifi_lock_sharp)
+            ),
+            Text(
+              "Kimochi Page",
+              style: TextStyle(
 
-),
-    )
-  ],
-),
-),
+              ),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
