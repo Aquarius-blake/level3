@@ -20,8 +20,9 @@ class _nextpageState extends State<nextpage> {
 
                   });
                 },
-                icon: Icon(Icons.wifi_lock_sharp))
-
+                icon: Icon(Icons.wifi_lock_sharp)
+            ),
+            Text("Next Page")
           ],
         ),
       ),
