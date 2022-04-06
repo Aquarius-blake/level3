@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:level3/pages/next.dart';
 
 void main() {
   runApp(MaterialApp(
     home: Home(),
+    routes:{
+    '/next':(context)=> nextpage(),
+      }
   ));
 
 }
