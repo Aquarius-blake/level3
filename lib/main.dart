@@ -4,10 +4,10 @@ import 'package:level3/pages/Kimochi.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Home(),
-    routes:{
-    '/next':(context)=> nextpage(),
-      '/Kimochit':(context)=> Kimochi(),
+      home: Home(),
+      routes:{
+        '/next':(context)=> nextpage(),
+        '/Kimochit':(context)=> Kimochi(),
       }
   ));
 
@@ -46,11 +46,11 @@ class _HomeState extends State<Home> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-          onPressed: (){
-setState(() {
+        onPressed: (){
+          setState(() {
 
-});
-          },
+          });
+        },
         child: Text("Next"),
       ),
     );
