@@ -20,25 +20,25 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-appBar: AppBar(
-  backgroundColor: Colors.cyanAccent,
-title: Row(
-  children: <Widget>[
-IconButton(
-    onPressed: (){
-      setState(() {
+      appBar: AppBar(
+        backgroundColor: Colors.cyanAccent,
+        title: Row(
+          children: <Widget>[
+            IconButton(
+                onPressed: (){
+                  setState(() {
 
-      });
-    },
-    icon:Icon(Icons.wifi)
-),
-    Padding(
-      padding: const EdgeInsets.fromLTRB(70.0,0,0,0),
-      child: Center(child: Text("Level 3")),
-    )
-  ],
-),
-),
+                  });
+                },
+                icon:Icon(Icons.wifi)
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(70.0,0,0,0),
+              child: Center(child: Text("Level 3")),
+            )
+          ],
+        ),
+      ),
     );
   }
 }
