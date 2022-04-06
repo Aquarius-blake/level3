@@ -22,7 +22,10 @@ class _nextpageState extends State<nextpage> {
                 },
                 icon: Icon(Icons.wifi_lock_sharp)
             ),
-            Text("Next Page")
+            Padding(
+              padding: const EdgeInsets.fromLTRB(70.0,0,0,0),
+              child: Text("Next Page"),
+            )
           ],
         ),
       ),
