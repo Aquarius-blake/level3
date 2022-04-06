@@ -14,7 +14,9 @@ class _nextpageState extends State<nextpage> {
 appBar: AppBar(
   title: Row(
 children: <Widget>[
-
+IconButton(
+    onPressed: (){},
+    icon: Icon(Icons.wifi_lock_sharp))
 ],
   ),
 ),
