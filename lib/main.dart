@@ -22,7 +22,11 @@ appBar: AppBar(
 title: Row(
   children: <Widget>[
 IconButton(
-    onPressed: (){},
+    onPressed: (){
+      setState(() {
+
+      });
+    },
     icon:Icon(Icons.wifi)
 ),
     Text("Level 3")
