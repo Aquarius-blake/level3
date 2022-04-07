@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
             Navigator.pushNamed(context, '/next');
           });
         },
-        elevation: 3.0,
+        elevation: 4.0,
         backgroundColor: Colors.cyanAccent,
         child: Text("Next"),
       ),
