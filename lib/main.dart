@@ -39,7 +39,7 @@ class _HomeState extends State<Home> {
             IconButton(
                 onPressed: (){
                   setState(() {
-
+                  Navigator.pushNamed(context, '/load');
                   });
                 },
                 icon:Icon(Icons.wifi)
