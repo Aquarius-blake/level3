@@ -22,7 +22,7 @@ class _nextpageState extends State<nextpage> {
   void initState(){
 
     super.initState();
-
+getdata();
   }
 
 
