@@ -9,13 +9,19 @@ class nextpage extends StatefulWidget {
 
 class _nextpageState extends State<nextpage> {
 
-  void getdata(){
+  void getdata() async{
 //simulate data request
-  Future.delayed(Duration(seconds: 3),
+  await Future.delayed(Duration(seconds: 3),
           (){
     print("Something");
           }
           );
+
+  Future.delayed(Duration(seconds: 3),
+          (){
+        print("Something 2");
+      }
+  );
   }
 
   @override
