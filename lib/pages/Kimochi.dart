@@ -19,7 +19,7 @@ class _KimochiState extends State<Kimochi> {
             IconButton(
                 onPressed: (){
                   setState(() {
-                      Navigator.pushNamed(context, routeName)
+
                   });
                 },
                 icon: Icon(Icons.wifi_lock_sharp)
