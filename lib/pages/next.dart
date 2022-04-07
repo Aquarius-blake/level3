@@ -10,7 +10,10 @@ class nextpage extends StatefulWidget {
 class _nextpageState extends State<nextpage> {
 
   void getdata(){
-
+//simulate data request
+  Future.delayed(Duration(seconds: 3),
+          (){}
+          );
   }
 
   @override
