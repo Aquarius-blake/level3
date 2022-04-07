@@ -63,6 +63,7 @@ class _nextpageState extends State<nextpage> {
         children: <Widget>[
 Card(
   color: Colors.cyanAccent,
+  child: Text("Hello"),
 )
         ],
       ),
