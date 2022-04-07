@@ -9,7 +9,7 @@ class tester extends StatelessWidget {
     return MaterialApp(
       home: Home(),
       routes: {
-
+        '/kimochi': (context)=> tester()
       },
     );
   }
