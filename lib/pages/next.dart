@@ -8,6 +8,14 @@ class nextpage extends StatefulWidget {
 }
 
 class _nextpageState extends State<nextpage> {
+
+  @override
+  void initState(){
+
+    super.initState();
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
