@@ -1,6 +1,9 @@
+import 'dart:js';
+
 import 'package:flutter/material.dart';
 import 'package:level3/pages/next.dart';
 import 'package:level3/pages/Kimochi.dart';
+import 'package:level3/pages/loading.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -9,6 +12,7 @@ void main() {
       routes:{
         '/next':(context)=> nextpage(),
         '/Kimochit':(context)=> Kimochi(),
+        '/load':(context)=>tester()
       }
   ));
 
