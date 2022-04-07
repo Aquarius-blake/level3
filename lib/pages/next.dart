@@ -20,7 +20,7 @@ class _nextpageState extends State<nextpage> {
 
  String lop= await Future.delayed(Duration(seconds: 2),
           (){
-        return "som2";
+        return "som";
       }
   );
  print("$ini - $lop");
