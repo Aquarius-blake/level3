@@ -5,6 +5,7 @@ import 'package:level3/pages/Kimochi.dart';
 void main() {
   runApp(MaterialApp(
       home: Home(),
+      themeMode: ThemeMode.dark,
       routes:{
         '/next':(context)=> nextpage(),
         '/Kimochit':(context)=> Kimochi(),
