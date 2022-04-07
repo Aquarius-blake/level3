@@ -17,7 +17,7 @@ class _nextpageState extends State<nextpage> {
           }
           );
 
-  Future.delayed(Duration(seconds: 3),
+  Future.delayed(Duration(seconds: 2),
           (){
         print("Something 2");
       }
