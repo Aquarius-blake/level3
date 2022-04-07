@@ -55,12 +55,7 @@ class _HomeState extends State<Home> {
         onPressed: (){
           setState(() {
 
-            build(context){
-
-              return Scaffold(
-                body: Text("Hey"),
-              );
-            }
+            Navigator.pushNamed(context, '/next');
 
           });
         },
