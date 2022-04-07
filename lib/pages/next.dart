@@ -31,6 +31,7 @@ class _nextpageState extends State<nextpage> {
 
     super.initState();
 getdata();
+print("");
   }
 
 
