@@ -11,26 +11,26 @@ class _nextpageState extends State<nextpage> {
 
   void getdata() async{
 //simulate data request
- String ini= await Future.delayed(Duration(seconds: 3),
-          (){
-    return "something";
-          }
+    String ini= await Future.delayed(Duration(seconds: 3),
+            (){
+          return "something";
+        }
 
-          );
+    );
 
- String lop= await Future.delayed(Duration(seconds: 2),
-          (){
-        return "som";
-      }
-  );
- print("$ini - $lop");
+    String lop= await Future.delayed(Duration(seconds: 2),
+            (){
+          return "som";
+        }
+    );
+    print("$ini - $lop");
   }
 
   @override
   void initState(){
 
     super.initState();
-getdata();
+    getdata();
 
   }
 
