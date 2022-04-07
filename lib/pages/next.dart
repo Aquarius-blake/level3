@@ -11,9 +11,9 @@ class _nextpageState extends State<nextpage> {
 
   void getdata() async{
 //simulate data request
-  await Future.delayed(Duration(seconds: 3),
+ String ini= await Future.delayed(Duration(seconds: 3),
           (){
-    print("Something");
+    return "something";
           }
           );
 
