@@ -59,6 +59,11 @@ class _nextpageState extends State<nextpage> {
           ],
         ),
       ),
+      body: Column(
+        children: <Widget>[
+
+        ],
+      ),
     );
   }
 }
