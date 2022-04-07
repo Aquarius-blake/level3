@@ -26,7 +26,7 @@ class _nextpageState extends State<nextpage> {
                 icon: Icon(Icons.wifi_lock_sharp)
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(70.0,0,0,0),
+              padding: const EdgeInsets.fromLTRB(50.0,0,0,0),
               child: Text("Next Page "),
             )
           ],
