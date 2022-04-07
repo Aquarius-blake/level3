@@ -64,7 +64,11 @@ class _nextpageState extends State<nextpage> {
 Card(
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
   color: Colors.cyanAccent,
-  child: Text("Hello"),
+  child: Column(
+    children:<Widget> [
+      Text("Hello"),
+    ],
+  ),
 )
         ],
       ),
