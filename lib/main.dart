@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
       floatingActionButton: FloatingActionButton(
         onPressed: (){
           setState(() {
-Navigator.pushNamed(context, '/next');
+            Navigator.pushNamed(context, '/next');
           });
         },
         child: Text("Next"),
