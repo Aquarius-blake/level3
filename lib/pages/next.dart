@@ -15,13 +15,15 @@ class _nextpageState extends State<nextpage> {
           (){
     return "something";
           }
+
           );
 
-  Future.delayed(Duration(seconds: 2),
+ String lop= await Future.delayed(Duration(seconds: 2),
           (){
-        print("Something 2");
+        return "som2";
       }
   );
+ print("$ini - $lop");
   }
 
   @override
