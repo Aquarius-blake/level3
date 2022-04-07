@@ -54,7 +54,14 @@ class _HomeState extends State<Home> {
       floatingActionButton: FloatingActionButton(
         onPressed: (){
           setState(() {
-            Navigator.pushNamed(context, '/next');
+
+            build(context){
+
+              return Scaffold(
+                body: Text("Hey"),
+              );
+            }
+
           });
         },
         elevation: 4.0,
