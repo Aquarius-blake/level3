@@ -9,10 +9,15 @@ class nextpage extends StatefulWidget {
 
 class _nextpageState extends State<nextpage> {
 
+  void getdata(){
+
+  }
+
   @override
   void initState(){
 
     super.initState();
+
   }
 
 
