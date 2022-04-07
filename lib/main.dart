@@ -12,7 +12,7 @@ void main() {
       routes:{
         '/next':(context)=> nextpage(),
         '/Kimochit':(context)=> Kimochi(),
-        '/load':(context)=>tester()
+        '/load':(context)=>tester(),
       }
   ));
 
