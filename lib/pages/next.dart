@@ -85,7 +85,7 @@ class _nextpageState extends State<nextpage> {
                     style: TextStyle(
                       fontSize: 7.8,
                       fontStyle: FontStyle.italic,
-letterSpacing: 1.2,
+                      letterSpacing: 1.2,
                     ),
                   )
                 ],
