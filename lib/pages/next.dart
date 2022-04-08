@@ -63,6 +63,7 @@ class _nextpageState extends State<nextpage> {
       body: Column(
         children: <Widget>[
 Card(
+  elevation: 3.0,
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
   color: Colors.cyanAccent,
   child: Padding(
