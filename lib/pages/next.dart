@@ -79,7 +79,12 @@ letterSpacing: 1.5,
 
           ),
         ),
-        Text("In this world")
+        Text(
+          "In this world",
+          style: TextStyle(
+
+          ),
+        )
       ],
     ),
   ),
