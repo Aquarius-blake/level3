@@ -75,6 +75,7 @@ Card(
           "What Do You Desire",
           style: TextStyle(
       fontWeight: FontWeight.bold,
+letterSpacing: 1.5,
 
           ),
         ),
