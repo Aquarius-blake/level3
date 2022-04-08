@@ -84,6 +84,7 @@ letterSpacing: 1.5,
           textAlign: TextAlign.right,
           style: TextStyle(
 fontSize: 7.8,
+            fontStyle: FontStyle.italic,
 
           ),
         )
