@@ -64,9 +64,9 @@ class _HomeState extends State<Home> {
         child: Text("Next"),
       ),
       body: Column(
-children:<Widget> [
+        children:<Widget> [
 
-],
+        ],
       ),
     );
   }

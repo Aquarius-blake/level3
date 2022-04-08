@@ -62,36 +62,36 @@ class _nextpageState extends State<nextpage> {
       ),
       body: Column(
         children: <Widget>[
-Card(
-  elevation: 3.0,
-  margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-  color: Colors.cyanAccent,
-  child: Padding(
-    padding: const EdgeInsets.all(12.0),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children:<Widget> [
-        Text(
-          "What Do You Desire",
-          style: TextStyle(
-      fontWeight: FontWeight.bold,
-letterSpacing: 1.5,
+          Card(
+            elevation: 3.0,
+            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+            color: Colors.cyanAccent,
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children:<Widget> [
+                  Text(
+                    "What Do You Desire",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 1.5,
 
-          ),
-        ),
-        Text(
-          "In this world",
-          textAlign: TextAlign.right,
-          style: TextStyle(
-fontSize: 7.8,
-            fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  Text(
+                    "In this world",
+                    textAlign: TextAlign.right,
+                    style: TextStyle(
+                      fontSize: 7.8,
+                      fontStyle: FontStyle.italic,
 
+                    ),
+                  )
+                ],
+              ),
+            ),
           ),
-        )
-      ],
-    ),
-  ),
-),
 
 
         ],
