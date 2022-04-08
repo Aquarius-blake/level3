@@ -73,6 +73,7 @@ Card(
         Text(
           "What Do You Desire",
           style: TextStyle(
+      fontWeight: FontWeight.bold,
 
           ),
         ),
