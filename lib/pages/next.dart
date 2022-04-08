@@ -70,7 +70,7 @@ Card(
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children:<Widget> [
-        Text("What "),
+        Text("What Do "),
       ],
     ),
   ),
