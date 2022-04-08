@@ -63,6 +63,9 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.cyanAccent,
         child: Text("Next"),
       ),
+      body: Column(
+
+      ),
     );
   }
 }
