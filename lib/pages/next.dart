@@ -81,7 +81,9 @@ letterSpacing: 1.5,
         ),
         Text(
           "In this world",
+          textAlign: TextAlign.right,
           style: TextStyle(
+fontSize: 7.8,
 
           ),
         )
