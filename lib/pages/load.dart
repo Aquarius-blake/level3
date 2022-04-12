@@ -19,6 +19,7 @@ class _LoadinState extends State<Loadin> {
   @override
   void initState(){
     super.initState();
+    data()
   }
   @override
   Widget build(BuildContext context) {
