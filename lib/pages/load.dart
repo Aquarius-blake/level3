@@ -10,7 +10,9 @@ class Loadin extends StatefulWidget {
 class _LoadinState extends State<Loadin> {
 
   void data() async{
-
+    final String urlqwe='https://jsonplaceholder.typicode.com/todos/1';
+    Uri as=Uri.parse(urlqwe);
+ Response rep= await get(as);
   }
 
   @override

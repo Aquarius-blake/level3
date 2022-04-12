@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
         onPressed: (){
           setState(() {
 
-            Navigator.pushNamed(context, '/next');
+            Navigator.pushNamed(context, '/loading');
 
           });
         },
