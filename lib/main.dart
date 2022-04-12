@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:level3/pages/next.dart';
 import 'package:level3/pages/Kimochi.dart';
+import 'package:level3/pages/load.dart';
 
 
 void main() {
