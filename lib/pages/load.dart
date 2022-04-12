@@ -7,6 +7,11 @@ class Loadin extends StatefulWidget {
 }
 
 class _LoadinState extends State<Loadin> {
+
+  void data() async{
+
+  }
+
   @override
   void initState(){
     super.initState();
