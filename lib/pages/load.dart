@@ -8,6 +8,10 @@ class Loadin extends StatefulWidget {
 
 class _LoadinState extends State<Loadin> {
   @override
+  void initState(){
+    super.initState();
+  }
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
 
