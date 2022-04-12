@@ -13,7 +13,7 @@ void main() {
       routes:{
         '/next':(context)=> nextpage(),
         '/Kimochit':(context)=> Kimochi(),
-
+        '/loading':(context)=>Loadin(),
       }
   ));
 
