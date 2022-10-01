@@ -1,4 +1,4 @@
 # level3
 
-A new firebae/Flutter project.
+A new FlutterFire project.
 
